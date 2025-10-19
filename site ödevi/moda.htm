@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moda Ürünleri - Alışveriş Dünyası</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Moda Ürünleri</h1>
+    <p>En trend kıyafet ve aksesuarlar burada!</p>
+  </header>
+
+  <div class="container">
+    <!-- YAN MENÜ -->
+    <nav class="sidebar">
+      <ul>
+        <li><a href="index.html">Ana Sayfa</a></li>
+        <li><a href="elektronik.html">Elektronik</a></li>
+        <li><a href="moda.html" style="color:#ff6600;">Moda</a></li>
+        <li><a href="evyasam.html">Ev & Yaşam</a></li>
+        <li><a href="kozmetik.html">Kozmetik</a></li>
+        <li><a href="spor.html">Spor</a></li>
+        <li><a href="kitap.html">Kitap</a></li>
+      </ul>
+    </nav>
+
+    <!-- ANA İÇERİK -->
+    <main>
+      <section class="product-grid">
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1520975918462-4b1d46f64ef8?w=400" alt="T-shirt">
+          <h3>T-shirt</h3>
+          <p>Rahat ve şık günlük T-shirt.</p>
+          <button onclick="addToCart('T-shirt')">Sepete Ekle</button>
+        </div>
+
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1618354699923-6b748a8f4e1f?w=400" alt="Elbise">
+          <h3>Elbise</h3>
+          <p>Modern ve zarif elbise modeli.</p>
+          <button onclick="addToCart('Elbise')">Sepete Ekle</button>
+        </div>
+
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1593032465179-4bfe9b2f2fa5?w=400" alt="Kot Pantolon">
+          <h3>Kot Pantolon</h3>
+          <p>Günlük ve konforlu kot pantolon.</p>
+          <button onclick="addToCart('Kot Pantolon')">Sepete Ekle</button>
+        </div>
+
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1600180758892-36514f3a1e3c?w=400" alt="Ceket">
+          <h3>Ceket</h3>
+          <p>Soğuk havalar için şık ceket.</p>
+          <button onclick="addToCart('Ceket')">Sepete Ekle</button>
+        </div>
+
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1556909216-1e65e76e7b57?w=400" alt="Ayakkabı">
+          <h3>Ayakkabı</h3>
+          <p>Günlük ve rahat ayakkabı.</p>
+          <button onclick="addToCart('Ayakkabı')">Sepete Ekle</button>
+        </div>
+
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1592878891247-0a9b23f1b7f7?w=400" alt="Çanta">
+          <h3>Çanta</h3>
+          <p>Şık ve kullanışlı çanta modeli.</p>
+          <button onclick="addToCart('Çanta')">Sepete Ekle</button>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <p>© 2025 Alışveriş Dünyası | Moda Kategorisi</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alışveriş Dünyası</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Alışveriş Dünyası</h1>
+    <p>Renkli, eğlenceli ve modern alışveriş platformu!</p>
+  </header>
+
+  <div class="container">
+    <!-- YAN MENÜ -->
+    <nav class="sidebar">
+      <ul>
+        <li><a href="elektronik.html">Elektronik</a></li>
+        <li><a href="moda.html">Moda</a></li>
+        <li><a href="evyasam.html">Ev & Yaşam</a></li>
+        <li><a href="kozmetik.html">Kozmetik</a></li>
+        <li><a href="spor.html">Spor</a></li>
+        <li><a href="kitap.html">Kitap</a></li>
+      </ul>
+    </nav>
+
+    <!-- ANA İÇERİK -->
+    <main>
+      <section class="banner">
+        <img id="mainImage" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800" alt="Ana Görsel">
+        <div class="thumbs">
+          <img src="https://images.unsplash.com/photo-1581091215367-59ab6c9a743a?w=200" onclick="changeImage(this)">
+          <img src="https://images.unsplash.com/photo-1512499617640-c2f999018b72?w=200" onclick="changeImage(this)">
+          <img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=200" onclick="changeImage(this)">
+        </div>
+      </section>
+
+      <section class="welcome">
+        <h2>Popüler Kategoriler</h2>
+        <div class="categories">
+          <a href="elektronik.html" class="cat-card">
+            <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400" alt="Elektronik">
+            <span>Elektronik</span>
+          </a>
+          <a href="moda.html" class="cat-card">
+            <img src="https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?w=400" alt="Moda">
+            <span>Moda</span>
+          </a>
+          <a href="evyasam.html" class="cat-card">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400" alt="Ev & Yaşam">
+            <span>Ev & Yaşam</span>
+          </a>
+          <a href="kozmetik.html" class="cat-card">
+            <img src="https://images.unsplash.com/photo-1596464716121-2a5b6b52d9c4?w=400" alt="Kozmetik">
+            <span>Kozmetik</span>
+          </a>
+          <a href="spor.html" class="cat-card">
+            <img src="https://images.unsplash.com/photo-1571019613914-85f342c1d5a5?w=400" alt="Spor">
+            <span>Spor</span>
+          </a>
+          <a href="kitap.html" class="cat-card">
+            <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400" alt="Kitap">
+            <span>Kitap</span>
+          </a>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <p>© 2025 Alışveriş Dünyası | Hepsiburada Tarzı Tasarım</p>
+  </footer>
+</body>
+</html>
+

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elektronik Ürünler - Alışveriş Dünyası</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Elektronik Ürünler</h1>
+    <p>Teknolojinin en yenileri burada!</p>
+  </header>
+
+  <div class="container">
+    <!-- YAN MENÜ -->
+    <nav class="sidebar">
+      <ul>
+        <li><a href="index.html">Ana Sayfa</a></li>
+        <li><a href="elektronik.html" style="color:#ff6600;">Elektronik</a></li>
+        <li><a href="moda.html">Moda</a></li>
+        <li><a href="evyasam.html">Ev & Yaşam</a></li>
+        <li><a href="kozmetik.html">Kozmetik</a></li>
+        <li><a href="spor.html">Spor</a></li>
+        <li><a href="kitap.html">Kitap</a></li>
+      </ul>
+    </nav>
+
+    <!-- ANA İÇERİK -->
+    <main>
+      <section class="product-grid">
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400" alt="Laptop">
+          <h3>Laptop</h3>
+          <p>Güçlü performans, zarif tasarım.</p>
+          <button onclick="addToCart('Laptop')">Sepete Ekle</button>
+        </div>
+
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1510557880182-3b1d9e9b6c25?w=400" alt="Akıllı Telefon">
+          <h3>Akıllı Telefon</h3>
+          <p>Gelişmiş kamera, yüksek hız.</p>
+          <button onclick="addToCart('Akıllı Telefon')">Sepete Ekle</button>
+        </div>
+
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1580894908361-967195033215?w=400" alt="Kulaklık">
+          <h3>Kulaklık</h3>
+          <p>Net ses, kablosuz özgürlük.</p>
+          <button onclick="addToCart('Kulaklık')">Sepete Ekle</button>
+        </div>
+
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=400" alt="Tablet">
+          <h3>Tablet</h3>
+          <p>Taşınabilir, yüksek çözünürlüklü ekran.</p>
+          <button onclick="addToCart('Tablet')">Sepete Ekle</button>
+        </div>
+
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400" alt="Bluetooth Hoparlör">
+          <h3>Bluetooth Hoparlör</h3>
+          <p>Güçlü ses, uzun pil ömrü.</p>
+          <button onclick="addToCart('Bluetooth Hoparlör')">Sepete Ekle</button>
+        </div>
+
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1606813903271-9f72a0a53a3e?w=400" alt="Akıllı Saat">
+          <h3>Akıllı Saat</h3>
+          <p>Fitness takibi ve bildirim kontrolü.</p>
+          <button onclick="addToCart('Akıllı Saat')">Sepete Ekle</button>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <p>© 2025 Alışveriş Dünyası | Elektronik Kategorisi</p>
+  </footer>
+</body>
+</html>

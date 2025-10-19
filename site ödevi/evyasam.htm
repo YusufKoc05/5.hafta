@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ev & Yaşam - Alışveriş Dünyası</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Ev & Yaşam Ürünleri</h1>
+    <p>Eviniz ve yaşam alanınız için en iyi ürünler.</p>
+  </header>
+
+  <div class="container">
+    <nav class="sidebar">
+      <ul>
+        <li><a href="index.html">Ana Sayfa</a></li>
+        <li><a href="elektronik.html">Elektronik</a></li>
+        <li><a href="moda.html">Moda</a></li>
+        <li><a href="evyasam.html" style="color:#ff6600;">Ev & Yaşam</a></li>
+        <li><a href="kozmetik.html">Kozmetik</a></li>
+        <li><a href="spor.html">Spor</a></li>
+        <li><a href="kitap.html">Kitap</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="product-grid">
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1582582494704-13f8cce5f981?w=400" alt="Masa Lambası">
+          <h3>Masa Lambası</h3>
+          <p>Şık ve modern masa lambası.</p>
+          <button onclick="addToCart('Masa Lambası')">Sepete Ekle</button>
+        </div>
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1567016432779-0642d1fa3e38?w=400" alt="Dekoratif Vazo">
+          <h3>Dekoratif Vazo</h3>
+          <p>Evinize estetik dokunuş.</p>
+          <button onclick="addToCart('Dekoratif Vazo')">Sepete Ekle</button>
+        </div>
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1578898888031-5b6c8f7d6c0f?w=400" alt="Yastık Seti">
+          <h3>Yastık Seti</h3>
+          <p>Konforlu ve dekoratif yastıklar.</p>
+          <button onclick="addToCart('Yastık Seti')">Sepete Ekle</button>
+        </div>
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1578898888031-5b6c8f7d6c0f?w=400" alt="Mutfak Seti">
+          <h3>Mutfak Seti</h3>
+          <p>Tüm mutfak ihtiyaçlarınız için.</p>
+          <button onclick="addToCart('Mutfak Seti')">Sepete Ekle</button>
+        </div>
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1598327104865-1e1a6f8f0d8a?w=400" alt="Halı">
+          <h3>Halı</h3>
+          <p>Ev dekorunu tamamlayan modern halı.</p>
+          <button onclick="addToCart('Halı')">Sepete Ekle</button>
+        </div>
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1567016432780-f0e6d2aaf7c2?w=400" alt="Duvar Saati">
+          <h3>Duvar Saati</h3>
+          <p>Estetik ve fonksiyonel duvar saati.</p>
+          <button onclick="addToCart('Duvar Saati')">Sepete Ekle</button>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <p>© 2025 Alışveriş Dünyası | Ev & Yaşam Kategorisi</p>
+  </footer>
+</body>
+</html>

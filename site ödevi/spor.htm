@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spor Ürünleri - Alışveriş Dünyası</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Spor Ürünleri</h1>
+    <p>Fitness ve spor tutkunları için ürünler.</p>
+  </header>
+
+  <div class="container">
+    <nav class="sidebar">
+      <ul>
+        <li><a href="index.html">Ana Sayfa</a></li>
+        <li><a href="elektronik.html">Elektronik</a></li>
+        <li><a href="moda.html">Moda</a></li>
+        <li><a href="evyasam.html">Ev & Yaşam</a></li>
+        <li><a href="kozmetik.html">Kozmetik</a></li>
+        <li><a href="spor.html" style="color:#ff6600;">Spor</a></li>
+        <li><a href="kitap.html">Kitap</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="product-grid">
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1599058917210-ec1a61d242c3?w=400" alt="Koşu Ayakkabısı">
+          <h3>Koşu Ayakkabısı</h3>
+          <p>Rahat ve dayanıklı spor ayakkabı.</p>
+          <button onclick="addToCart('Koşu Ayakkabısı')">Sepete Ekle</button>
+        </div>
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1599042317261-4f15d8e7d7e1?w=400" alt="Yoga Matı">
+          <h3>Yoga Matı</h3>
+          <p>Kaymaz ve konforlu yoga matı.</p>
+          <button onclick="addToCart('Yoga Matı')">Sepete Ekle</button>
+        </div>
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1585123844301-33068e2cf1f3?w=400" alt="Dumbbell Seti">
+          <h3>Dumbbell Seti</h3>
+          <p>Evde kolayca ağırlık çalışması.</p>
+          <button onclick="addToCart('Dumbbell Seti')">Sepete Ekle</button>
+        </div>
+        <div class="product">
+          <img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1?w=400" alt="Spor Çantası">
+          <h3>Spor Çantası</h3>
+          <p>Şık ve kullanışlı spor çantası.</p>
+          <button onclick="addToCart('Spor Çantası')">Sepete Ekle</button>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <p>© 2025 Alışveriş Dünyası | Spor Kategorisi</p>
+  </footer>
+</body>
+</html>

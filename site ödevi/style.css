@@ -1,0 +1,216 @@
+/* --- GENEL AYARLAR --- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+/* --- ÜST KISIM --- */
+header {
+  background: linear-gradient(90deg, #ff6600, #8a2be2, #5ac8fa);
+  color: white;
+  text-align: center;
+  padding: 25px 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+header h1 {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+header p {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+/* --- ANA YAPI --- */
+.container {
+  display: flex;
+  min-height: 85vh;
+}
+
+/* --- YAN MENÜ --- */
+.sidebar {
+  width: 220px;
+  background: white;
+  border-right: 2px solid #ff6600;
+  box-shadow: 2px 0 8px rgba(0,0,0,0.05);
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 10px;
+}
+
+.sidebar li {
+  margin: 10px 0;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  display: block;
+  padding: 12px 16px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.sidebar a:hover {
+  background: linear-gradient(90deg, #ff6600, #8a2be2);
+  color: white;
+  transform: translateX(5px);
+}
+
+/* --- ANA İÇERİK --- */
+main {
+  flex: 1;
+  padding: 20px 40px;
+}
+
+/* --- BANNER --- */
+.banner {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.banner img {
+  width: 80%;
+  max-width: 800px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.banner img:hover {
+  transform: scale(1.03);
+}
+
+.thumbs {
+  margin-top: 10px;
+}
+
+.thumbs img {
+  width: 100px;
+  height: 60px;
+  border-radius: 10px;
+  margin: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+  border: 2px solid transparent;
+}
+
+.thumbs img:hover {
+  transform: scale(1.1);
+  border-color: #8a2be2;
+}
+
+/* --- POPÜLER KATEGORİLER --- */
+.welcome h2 {
+  color: #8a2be2;
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cat-card {
+  width: 220px;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.cat-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.cat-card span {
+  display: block;
+  padding: 10px;
+  font-weight: 500;
+}
+
+.cat-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 20px rgba(138, 43, 226, 0.3);
+  color: #ff6600;
+}
+
+/* --- ÜRÜN KARTLARI (Kategori Sayfaları İçin) --- */
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.product {
+  width: 220px;
+  background: white;
+  border-radius: 15px;
+  text-align: center;
+  padding: 15px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.product img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.product:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(90, 200, 250, 0.4);
+}
+
+/* --- SEPETE EKLE BUTONU --- */
+button {
+  background: linear-gradient(90deg, #ff6600, #8a2be2);
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #8a2be2, #5ac8fa);
+  transform: scale(1.05);
+}
+
+/* --- ALT KISIM --- */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+  margin-top: 30px;
+}
+
